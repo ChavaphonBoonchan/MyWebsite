@@ -155,8 +155,8 @@ a:focus {
   margin: 10px 30px;
 }
 
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
+.custom_nav-container .nav_gift-btn {
+  background-image: url(../images/gift-box.png);
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -623,5 +623,11 @@ a:focus {
   text-align: center;
 
 }
+
+
+
+
+
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
