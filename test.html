@@ -59,6 +59,7 @@
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
       padding-top: 100px; /* Location of the box */
+      
       left: 0;
       top: 0;
       width: 100%; /* Full width */
@@ -68,6 +69,19 @@
       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     }
 
+    .popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #a09e9e;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px; /* add this line to make the edges rounded */
+  position: relative;
+  animation: slideIn 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
     /* Modal Content */
     .modal-content {
       background-color: #fefefe;
@@ -75,6 +89,8 @@
       padding: 20px;
       border: 1px solid #888;
       width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
     /* The Close Button */
@@ -119,6 +135,7 @@
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
+  display: none;
 }
     .button-container {
         display: flex;
@@ -132,15 +149,18 @@
   background-color: #4c6bafbc;
   border: none;
   color: white;
-  padding: 15px 32px;
+  
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  
   margin: 4px 2px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 5px; /* add this line to make the edges rounded */
+  
+  padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 10px;
 
 }
 
@@ -227,6 +247,8 @@ popup-content {
     
     <a href="https://github.com/ChavaphonBoonchan" class="Btntheme" id="myBtn2">gitHub</a>
     <a href="https://linktr.ee/chavaphon_lnwza" class="Btntheme" id="myBtn3">Linktree</a>
+    <a href="https://ngl.link/superninelol" class="Btntheme" id="myBtn4">Ngl</a>
+    </div>
     </div>
     
   </div>
